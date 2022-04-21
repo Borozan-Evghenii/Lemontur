@@ -21,10 +21,10 @@
         <header class="header">
     <div class="header-container container">
         <div class="header-logo">
-            <span class="logo">lemontur <span class="logo-descr">s.r.l.</span></span>
+            <span class="logo"><?php  echo get_field('header_logo');?><span class="logo-descr"><?php  echo get_field('header_logo_descriptor');?></span></span>
         </div>
         <div class="header-button">
-            <button href="" class="button" data-path="modal">Contactează-ne</button>
+            <button href="" class="button" data-path="modal"><?php  echo get_field('header_button');?></button>
         </div>
     </div>
 </header>
