@@ -12,10 +12,15 @@
             <div class="footer-content_social">
                 <p class="footer-content_social__descr">Sau contactaține pe una dintre platforme</p>
                 <div class="footer-content_social__items">
-                    <a href="" class="footer-content_social__items__item footer_link">Facebook</a>
-                    <a href="" class="footer-content_social__items__item footer_link">Telegram</a>
-                    <a href="" class="footer-content_social__items__item footer_link">WhatsUp</a>
-                    <a href="" class="footer-content_social__items__item footer_link">Viber</a>
+
+                    <?php if( have_rows('hero_social_links') ): ?>
+                        <?php while( have_rows('hero_social_links')): the_row(); 
+                            $name = get_sub_field( 'hero_social_link_name' );
+                            $url = get_sub_field( 'hero_social_link_url' );?>
+                                <a href="<?php  echo $url; ?>" class="footer-content_social__items__item footer_link"><?php  echo $name; ?></a>
+                        <?php endwhile; ?>
+                    <?php endif; ?>
+
                 </div>
             </div>
             <div class="developer">
