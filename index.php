@@ -14,10 +14,15 @@
            
         </div>
         <div class="modal-window_social">
-            <a href="" class="modal-window_social__link">+(373) 68349062</a>
-            <a href="" class="modal-window_social__link">Facebook</a>
-            <a href="" class="modal-window_social__link">WhatsUp</a>
-            <a href="" class="modal-window_social__link">Viber</a>
+                       
+            <?php if( have_rows('modal_contacts') ): ?>
+                <?php while( have_rows('modal_contacts')): the_row(); 
+                    $name = get_sub_field( 'modal_contacts_name' );
+                    $url = get_sub_field( 'modal_contacts_url' );?>
+                        <a href="<?php  echo $url; ?>" class="modal-window_social__link"><?php  echo $name; ?></a>
+                <?php endwhile; ?>
+            <?php endif; ?>
+
         </div>
     </div>
 </section>
@@ -235,7 +240,6 @@
                                 <details class="faq-content_dropdown">
                                     <summary class="faq-content_dropdown__control">
                                         <h6 class="faq-content_dropdown__control__h6"><?php  echo $questions; ?></h6>
-                                        <img src="./img/dropdown.svg" alt="" class="faq-content_dropdown__control__arrow">
                                     </summary>
                                     <div class="faq-content_dropdown__text">
                                             <?php  echo $answer; ?>

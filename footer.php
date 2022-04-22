@@ -7,7 +7,7 @@
         <div class="footer-content">
             <div class="footer-content_number">
                 <p class="footer-content_number__descr">Pentru orice detalii tefefonați la numărul</p>
-                <a href="" class="footer-content_number__number footer_link">+ (373) 68349062</a>
+                <a href="tel:<?php  echo get_field('footer_phone_number');?>" class="footer-content_number__number footer_link"><?php  echo get_field('footer_phone_number');?></a>
             </div>
             <div class="footer-content_social">
                 <p class="footer-content_social__descr">Sau contactaține pe una dintre platforme</p>
@@ -24,7 +24,7 @@
                 </div>
             </div>
             <div class="developer">
-                <p>Developed by <a href="">Evgheny</a></p>
+                <p>Developed by <a href="tel:+(373)68349062">Evgheny</a></p>
             </div>
         </div>
     </div>
