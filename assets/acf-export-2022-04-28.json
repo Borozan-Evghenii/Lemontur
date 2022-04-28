@@ -1,0 +1,1055 @@
+[
+    {
+        "key": "group_626a447f874c0",
+        "title": "Alte servicii",
+        "fields": [
+            {
+                "key": "field_626a448ada036",
+                "label": "Titlul secției",
+                "name": "other_heading",
+                "type": "text",
+                "instructions": "Introduceși titlul secției",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Alte servicii",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_626a4550da037",
+                "label": "Serviciile",
+                "name": "other_services",
+                "type": "repeater",
+                "instructions": "Introduceți serviciile auxiliare",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "",
+                "min": 0,
+                "max": 0,
+                "layout": "table",
+                "button_label": "",
+                "sub_fields": [
+                    {
+                        "key": "field_626a4579da038",
+                        "label": "Denumirea serviciului",
+                        "name": "other_services_name",
+                        "type": "text",
+                        "instructions": "Intorduceși denumirea serviciului",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_626a45a3da039",
+                        "label": "Descriere",
+                        "name": "other_services_descr",
+                        "type": "text",
+                        "instructions": "Introduceți descrierea pentru serviciu",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page",
+                    "operator": "==",
+                    "value": "9"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    },
+    {
+        "key": "group_626a3c15e6dc3",
+        "title": "Despre noi",
+        "fields": [
+            {
+                "key": "field_626a3c3c9cd57",
+                "label": "Titlul secției",
+                "name": "about_heading",
+                "type": "text",
+                "instructions": "Introduceți denumirea secției",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Despre noi",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_626a3c779cd58",
+                "label": "Contentul",
+                "name": "about_content",
+                "type": "text",
+                "instructions": "Introduceți descrierea pentru secție",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Efectuăm transportul de pasageri, colete, marfă din Moldova - Germania, Germania - Moldova. Deținem transport confortabil, echipat la cele mai înalte standarde din domeniu, asigurîndu-vă astfel tot confortul de care aveți nevoie: aer conditionat, scaune rapatabile și comode, sistem audio-video, încălzire suplimentară, loc generos pentru picioare, spații suficiente pentru bagaje și șoferi profesioniști cu mare experiență.",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_626a3cc49cd59",
+                "label": "Numerele",
+                "name": "about_number",
+                "type": "repeater",
+                "instructions": "Introduceți datele statistice din secție",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "",
+                "min": 0,
+                "max": 0,
+                "layout": "table",
+                "button_label": "",
+                "sub_fields": [
+                    {
+                        "key": "field_626a3cff9cd5a",
+                        "label": "Numărul",
+                        "name": "about_number_number",
+                        "type": "text",
+                        "instructions": "Introduceți numărul",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "50",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_626a3d1a9cd5b",
+                        "label": "Descrierea",
+                        "name": "about_number_descr",
+                        "type": "text",
+                        "instructions": "Introduceți descrierea pentru număr",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "50",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page",
+                    "operator": "==",
+                    "value": "9"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    },
+    {
+        "key": "group_626a50a3246e5",
+        "title": "Faq",
+        "fields": [
+            {
+                "key": "field_626a50af0df7e",
+                "label": "Denumirea secțeiei",
+                "name": "faq_heading",
+                "type": "text",
+                "instructions": "Introduceți denumirea secției",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Întrebări fregvente",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_626a50ee0df7f",
+                "label": "Întrebări fregvente",
+                "name": "faq_content",
+                "type": "repeater",
+                "instructions": "Introduceți întrebările",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "",
+                "min": 0,
+                "max": 0,
+                "layout": "table",
+                "button_label": "",
+                "sub_fields": [
+                    {
+                        "key": "field_626a516c0df80",
+                        "label": "Întrebrea",
+                        "name": "faq_questions",
+                        "type": "text",
+                        "instructions": "Introduceți întrebarea",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_626a518a0df81",
+                        "label": "Răspunsul",
+                        "name": "faq_answer",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page",
+                    "operator": "==",
+                    "value": "9"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    },
+    {
+        "key": "group_626a528b88e37",
+        "title": "footer",
+        "fields": [
+            {
+                "key": "field_626a52968a7e6",
+                "label": "Numărul de telefon",
+                "name": "footer_phone_number",
+                "type": "text",
+                "instructions": "Inroduceți numărul de telefon",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page",
+                    "operator": "==",
+                    "value": "9"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    },
+    {
+        "key": "group_626a2eb62d05a",
+        "title": "Header",
+        "fields": [
+            {
+                "key": "field_626a2ee3e0b1c",
+                "label": "Logo",
+                "name": "header_logo",
+                "type": "text",
+                "instructions": "Introduceți denumirea siteului\/ companiei",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "30",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "lemontur",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_626a2f24e0b1d",
+                "label": "Logo Descriptor",
+                "name": "header_logo_descriptor",
+                "type": "text",
+                "instructions": "Introduceți un descriptor pentru logo dacă este necesar",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "30",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "s.r.l",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_626a2f77e0b1e",
+                "label": "Button",
+                "name": "header_button",
+                "type": "text",
+                "instructions": "Introduceți denumirea butornului de contact",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "30",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Contactează-ne",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page",
+                    "operator": "==",
+                    "value": "9"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    },
+    {
+        "key": "group_626a37f6a36e6",
+        "title": "Hero Section",
+        "fields": [
+            {
+                "key": "field_626a38077a80c",
+                "label": "Titlul principal",
+                "name": "hero_h1",
+                "type": "text",
+                "instructions": "Introduceți titlul principal pentru siteu",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Transport de pasageri și colete Moldova - Germania",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_626a387b7a80d",
+                "label": "Descriere pentru titlul principal",
+                "name": "hero_h1_descr",
+                "type": "text",
+                "instructions": "Indtroduceși descrierea pentru titlul prncipal",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Oferim curse zilnice tur-retur spre orice destinație. La fel dispunem de serviciul \"Colete și Pachete\"",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_626a38b07a80e",
+                "label": "Linkuri Sociale",
+                "name": "hero_social_links",
+                "type": "repeater",
+                "instructions": "Introduceți platformele și linkurile pentru contact",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "",
+                "min": 0,
+                "max": 4,
+                "layout": "table",
+                "button_label": "",
+                "sub_fields": [
+                    {
+                        "key": "field_626a38f87a80f",
+                        "label": "Denumirea platformei",
+                        "name": "hero_social_link_name",
+                        "type": "text",
+                        "instructions": "Introduceți denumirea platformei de contact",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "50",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_626a392c7a810",
+                        "label": "Linkul",
+                        "name": "hero_social_link_url",
+                        "type": "text",
+                        "instructions": "Introduceți linkul spre platforma selectată",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "50",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    }
+                ]
+            },
+            {
+                "key": "field_626a3a8e07ecf",
+                "label": "Slider",
+                "name": "hero_slider",
+                "type": "gallery",
+                "instructions": "Alegeți imaginile care unrmează a fi rulate pe slider",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "preview_size": "full",
+                "insert": "append",
+                "library": "all",
+                "min": "",
+                "max": "",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page",
+                    "operator": "==",
+                    "value": "9"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    },
+    {
+        "key": "group_626a3067b00b5",
+        "title": "Modal",
+        "fields": [
+            {
+                "key": "field_626a30709630c",
+                "label": "Contacte pentru Modal Window",
+                "name": "modal_contacts",
+                "type": "repeater",
+                "instructions": "Introduceți platformele de contact",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "",
+                "min": 0,
+                "max": 0,
+                "layout": "table",
+                "button_label": "",
+                "sub_fields": [
+                    {
+                        "key": "field_626a30b69630d",
+                        "label": "Denumirea",
+                        "name": "modal_contacts_name",
+                        "type": "text",
+                        "instructions": "Introduceți denumirea platformei de contact",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "50",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_626a30e89630e",
+                        "label": "Linkul",
+                        "name": "modal_contacts_url",
+                        "type": "text",
+                        "instructions": "Introduceți linkul pentru platforma selectată",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "50",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page",
+                    "operator": "==",
+                    "value": "9"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    },
+    {
+        "key": "group_626a4a3d629a5",
+        "title": "Orașe parcurse",
+        "fields": [
+            {
+                "key": "field_626a4a5b6f9e9",
+                "label": "Titlul secției",
+                "name": "traveled_heading",
+                "type": "text",
+                "instructions": "Introduceți denuirea secției",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Orașele parcurse",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_626a4aa16f9ea",
+                "label": "Orașele",
+                "name": "traveled_country",
+                "type": "repeater",
+                "instructions": "Introduceți orașele parcurse",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "",
+                "min": 0,
+                "max": 0,
+                "layout": "table",
+                "button_label": "",
+                "sub_fields": [
+                    {
+                        "key": "field_626a4b216f9eb",
+                        "label": "Denumirea țării",
+                        "name": "traveled_country_name",
+                        "type": "text",
+                        "instructions": "Introduceți denumirea țării",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_626a4b706f9ec",
+                        "label": "Fotografia țării",
+                        "name": "country_photo",
+                        "type": "image",
+                        "instructions": "Alegeți fotografia de fon pentr țara selectată",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "return_format": "url",
+                        "preview_size": "full",
+                        "library": "all",
+                        "min_width": "",
+                        "min_height": "",
+                        "min_size": "",
+                        "max_width": "",
+                        "max_height": "",
+                        "max_size": "",
+                        "mime_types": ""
+                    },
+                    {
+                        "key": "field_626a4bd06f9ed",
+                        "label": "Orașele parcurse",
+                        "name": "traveled_country_city_name",
+                        "type": "repeater",
+                        "instructions": "Introduceți denumirea orașelor",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "collapsed": "",
+                        "min": 0,
+                        "max": 0,
+                        "layout": "table",
+                        "button_label": "",
+                        "sub_fields": [
+                            {
+                                "key": "field_626a4c076f9ee",
+                                "label": "Denumirea orașului",
+                                "name": "city_name",
+                                "type": "text",
+                                "instructions": "Introduceți denumirea orașului",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page",
+                    "operator": "==",
+                    "value": "9"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    },
+    {
+        "key": "group_626a414e45731",
+        "title": "Servicii",
+        "fields": [
+            {
+                "key": "field_626a4156718aa",
+                "label": "Titlul secției",
+                "name": "services_heading",
+                "type": "text",
+                "instructions": "Introduceți titlul secției",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Servicii",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_626a4190718ab",
+                "label": "Lista servicii",
+                "name": "services",
+                "type": "repeater",
+                "instructions": "Introduceți lista de servicii",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "",
+                "min": 0,
+                "max": 0,
+                "layout": "table",
+                "button_label": "",
+                "sub_fields": [
+                    {
+                        "key": "field_626a41eb718ac",
+                        "label": "Denumirea serviciului",
+                        "name": "service_name",
+                        "type": "text",
+                        "instructions": "Introduceți denumirea serviciului",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_626a4292718ad",
+                        "label": "Descrierea serviciului",
+                        "name": "services_descr",
+                        "type": "text",
+                        "instructions": "Introduceți descrierea serviciului",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_626a42b1718ae",
+                        "label": "Foto de fon",
+                        "name": "service_photo",
+                        "type": "image",
+                        "instructions": "Alege imaginea de fon pentru serviciu",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "return_format": "url",
+                        "preview_size": "full",
+                        "library": "all",
+                        "min_width": "",
+                        "min_height": "",
+                        "min_size": "",
+                        "max_width": "",
+                        "max_height": "",
+                        "max_size": "",
+                        "mime_types": ""
+                    },
+                    {
+                        "key": "field_626a430e718af",
+                        "label": "Denumirea butonului",
+                        "name": "service_button_name",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "Contactează-ne",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page",
+                    "operator": "==",
+                    "value": "9"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    },
+    {
+        "key": "group_626a4645d374e",
+        "title": "Traseul",
+        "fields": [
+            {
+                "key": "field_626a465896b18",
+                "label": "Titlul secției",
+                "name": "route_heading",
+                "type": "text",
+                "instructions": "Introduceți denumirea secției",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Traseul",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_626a469c96b19",
+                "label": "Durata călătoriei",
+                "name": "traveling_time",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "23h - 30h",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_626a46bd96b1a",
+                "label": "Map",
+                "name": "map",
+                "type": "text",
+                "instructions": "Introduceți linkul din Google map",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page",
+                    "operator": "==",
+                    "value": "9"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    }
+]
